@@ -11,7 +11,7 @@
       "categories": ["monitoring"],
       "repository": {
         "url": "https://raw.githubusercontent.com/leonhart8t3/PortainerFiles/main/docker-compose.yml",
-        "stackfile": "https://raw.githubusercontent.com/leonhart8t3/PortainerFiles/main/docker-compose.yml"
+        "stackfile": "https://raw.githubusercontent.com/leonhart8t3/PortainerFiles/refs/heads/main/test-compose.yml"
       }
     }
   ]
