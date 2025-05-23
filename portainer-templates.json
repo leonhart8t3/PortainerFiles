@@ -1,0 +1,19 @@
+{
+  "version": "2",
+  "templates": [
+    {
+      "type": 1,
+      "title": "Test Speedtest Exporter",
+      "description": "Simple test to verify image reference compatibility in Portainer.",
+      "name": "Speedtest Test Template",
+      "platform": "linux",
+      "logo": "https://grafana.com/static/img/about/grafana_icon.svg",
+      "categories": ["monitoring"],
+      "repository": {
+        "url": "https://raw.githubusercontent.com/placeholder-user/placeholder-repo/main/test-compose.yml",
+        "stackfile": "https://raw.githubusercontent.com/leonhart8t3/PortainerFiles/main/docker-compose.yml"
+
+      }
+    }
+  ]
+}
