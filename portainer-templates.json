@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Speedtest + Grafana Stack",
+    "type": 1,
+    "title": "Speedtest Exporter + Prometheus + Grafana",
+    "description": "Periodically tests internet speed and graphs results using Prometheus + Grafana.",
+    "platform": "linux",
+    "logo": "https://grafana.com/static/img/about/grafana_icon.svg",
+    "categories": ["monitoring"],
+    "repository": {
+      "stackfile": "https://github.com/leonhart8t3/PortainerFiles/blob/main/docker-compose.yml"
+    }
+  }
+]
