@@ -10,7 +10,7 @@
       "logo": "https://grafana.com/static/img/about/grafana_icon.svg",
       "categories": ["monitoring"],
       "repository": {
-        "url": "https://raw.githubusercontent.com/placeholder-user/placeholder-repo/main/test-compose.yml",
+        "url": "https://raw.githubusercontent.com/leonhart8t3/PortainerFiles/main/docker-compose.yml",
         "stackfile": "https://raw.githubusercontent.com/leonhart8t3/PortainerFiles/main/docker-compose.yml"
 
       }
