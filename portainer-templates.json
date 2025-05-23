@@ -1,14 +1,18 @@
-[
-  {
-    "name": "Speedtest + Grafana Stack",
-    "type": 1,
-    "title": "Speedtest Exporter + Prometheus + Grafana",
-    "description": "Periodically tests internet speed and graphs results using Prometheus + Grafana.",
-    "platform": "linux",
-    "logo": "https://grafana.com/static/img/about/grafana_icon.svg",
-    "categories": ["monitoring"],
-    "repository": {
-      "stackfile": "https://github.com/leonhart8t3/PortainerFiles/blob/main/docker-compose.yml"
+{
+  "version": "2",
+  "templates": [
+    {
+      "type": 1,
+      "title": "Speedtest Exporter + Prometheus + Grafana",
+      "description": "Periodically tests internet speed and graphs results using Prometheus + Grafana.",
+      "name": "Speedtest + Grafana Stack",
+      "platform": "linux",
+      "logo": "https://grafana.com/static/img/about/grafana_icon.svg",
+      "categories": ["monitoring"],
+      "repository": {
+        "url": "https://raw.githubusercontent.com/leonhart8t3/PortainerFiles/main/docker-compose.yml",
+        "stackfile": "https://raw.githubusercontent.com/leonhart8t3/PortainerFiles/main/docker-compose.yml"
+      }
     }
-  }
-]
+  ]
+}
